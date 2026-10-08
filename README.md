@@ -7,12 +7,12 @@
 
 | 客户端 | 用哪个脚本 | 原始地址（raw） |
 |---|---|---|
-| Quantumult X / Loon / Stash / Surge / Node | `zeekr.js` | `https://raw.githubusercontent.com/m20104600/zeekr-checkin/main/dist/zeekr.js` |
-| Egern | `zeekr.egern.js` | `https://raw.githubusercontent.com/m20104600/zeekr-checkin/main/dist/zeekr.egern.js` |
-| 青龙 / 任意 Node.js ≥ 14 | `zeekr.qinglong.js` | `https://raw.githubusercontent.com/m20104600/zeekr-checkin/main/dist/zeekr.qinglong.js` |
+| Quantumult X / Loon / Stash / Surge / Node | `zeekr.js` | `https://raw.githubusercontent.com/liwuxi/zeekr-checkin/main/dist/zeekr.js` |
+| Egern | `zeekr.egern.js` | `https://raw.githubusercontent.com/liwuxi/zeekr-checkin/main/dist/zeekr.egern.js` |
+| 青龙 / 任意 Node.js ≥ 14 | `zeekr.qinglong.js` | `https://raw.githubusercontent.com/liwuxi/zeekr-checkin/main/dist/zeekr.qinglong.js` |
 
 > 国内访问 raw 慢/不稳的话，可换 jsDelivr 镜像：
-> `https://cdn.jsdelivr.net/gh/m20104600/zeekr-checkin@main/dist/zeekr.js`
+> `https://cdn.jsdelivr.net/gh/liwuxi/zeekr-checkin@main/dist/zeekr.js`
 > 或者把文件下载后放自己的服务器/对象存储（客户端也支持本地文件）。
 
 ---
@@ -52,19 +52,19 @@
 **Loon 插件**（直接贴进 Loon 的插件页）：
 
 ```
-https://raw.githubusercontent.com/m20104600/zeekr-checkin/main/configs/loon.plugin
+https://raw.githubusercontent.com/liwuxi/zeekr-checkin/main/configs/loon.plugin
 ```
 
 **Egern 模块**（直接贴进 Egern 的模块页）：
 
 ```
-https://raw.githubusercontent.com/m20104600/zeekr-checkin/main/configs/egern.yaml
+https://raw.githubusercontent.com/liwuxi/zeekr-checkin/main/configs/egern.yaml
 ```
 
 **QX / Stash** 用 `configs/qx.conf`、`configs/stash.yaml` 里的内容（地址已经填好，直接复制）。
 
-国内更快的镜像（jsDelivr，把 `raw.githubusercontent.com/m20104600/zeekr-checkin/main` 换成
-`cdn.jsdelivr.net/gh/m20104600/zeekr-checkin@main` 即可）。
+国内更快的镜像（jsDelivr，把 `raw.githubusercontent.com/liwuxi/zeekr-checkin/main` 换成
+`cdn.jsdelivr.net/gh/liwuxi/zeekr-checkin@main` 即可）。
 
 ### 2. 拿 Token
 

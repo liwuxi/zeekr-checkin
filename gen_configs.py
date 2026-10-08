@@ -17,8 +17,8 @@ ROOT = pathlib.Path(__file__).resolve().parent
 OUT = ROOT / "configs"
 OUT.mkdir(exist_ok=True)
 
-REPO = "https://raw.githubusercontent.com/m20104600/zeekr-checkin/main/dist"
-REPO_ALT = "https://cdn.jsdelivr.net/gh/m20104600/zeekr-checkin@main/dist"
+REPO = "https://raw.githubusercontent.com/liwuxi/zeekr-checkin/main/dist"
+REPO_ALT = "https://cdn.jsdelivr.net/gh/liwuxi/zeekr-checkin@main/dist"
 K = "ZEEKR_" + "TOKEN"
 BEARER = "Bea" + "rer"
 PH = "<把这里换成你的" + BEARER + " Token>"

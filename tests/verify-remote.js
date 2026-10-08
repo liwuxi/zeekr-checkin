@@ -13,7 +13,7 @@ const vm = require("vm");
 const path = require("path");
 
 const URL_DEFAULT =
-  "https://raw.githubusercontent.com/m20104600/zeekr-checkin/main/dist/zeekr.js";
+  "https://raw.githubusercontent.com/liwuxi/zeekr-checkin/main/dist/zeekr.js";
 const url = process.argv[2] || URL_DEFAULT;
 const TKEY = "ZEEKR_" + "TOKEN";
 

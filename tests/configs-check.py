@@ -203,7 +203,7 @@ check("loon.plugin 的 Mitm 域名正确", "hostname = api-gw-toc.zeekrlife.com"
 print("\n== 5. 脚本地址 & 敏感信息 ==")
 for fn in ("qx.conf", "loon.plugin", "loon-snippet.conf", "stash.yaml", "egern.yaml"):
     t = read(fn)
-    check(f"{fn} 用的是仓库真地址", "raw.githubusercontent.com/m20104600/zeekr-checkin/main/dist" in t)
+    check(f"{fn} 用的是仓库真地址", "raw.githubusercontent.com/liwuxi/zeekr-checkin/main/dist" in t)
     check(f"{fn} 不含真实 Token", True)  # 具体比对在下面统一做
 
 envfile = pathlib.Path(os.path.expanduser("~/.config/zeekr-checkin/env"))
